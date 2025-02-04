@@ -15,13 +15,14 @@ Before setting up the project, ensure you have the following installed:
 
 **Setup Instructions**
  1. Clone the repository
-`git clone https://github.com/LucasTsar/the-internet
-cd the-internet`
+`git clone https://github.com/LucasTsar/the-internet`
+and go to the new directory
+`cd the-internet`
 
- 2. Install dependencies
+ 3. Install dependencies
 `npm install`
 
- 3. Install Playwright browsers
+ 4. Install Playwright browsers
 `npx playwright install`
 
 **To run tests:**
