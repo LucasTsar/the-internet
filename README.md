@@ -45,3 +45,13 @@ To view detailed test reports:
 `npx playwright show-report`
 
 **IMPORTANT!** for API tests resources will not be really updated on the server but it will be faked as if so some tests can work not as expected on real project (f.e. api test for deleting post and validating that it's not available anymore) 
+
+Project structure:
+(https://github.com/LucasTsar/the-internet/)/
+├── api-tests/            # directory with API tests for jsonplaceholder
+│── WEB-UI-autotests/     # directory with WEB UI tests for the internet
+├── .gitignore            # Files to ignore in Git
+├── package.json          # Project dependencies and scripts
+├── playwright.config.ts  # Playwright configuration
+├── tsconfig.json         # TypeScript configuration
+└── README.md             # Project documentation
