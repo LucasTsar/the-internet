@@ -27,7 +27,9 @@ cd the-internet`
 **To run tests:**
 
 for WEB UI or API tests you should go to according directory:
+
 **for web**: `cd WEB-UI-autotests`
+
 **for API**: `cd api-tests`
 
 To run all tests:
