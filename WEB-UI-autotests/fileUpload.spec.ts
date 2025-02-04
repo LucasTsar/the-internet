@@ -5,7 +5,7 @@ test('File Upload - Verify Successful Upload', async ({ page }) => {
   await page.goto('https://the-internet.herokuapp.com/upload');
 
   // Define the path to the file to upload
-  const filePath = path.join(__dirname, '..', 'the_internet/test-data', 'test.txt');
+  const filePath = path.join(__dirname, '..', 'WEB-UI-autotests/test-data', 'test.txt');
 
   // Click choose file and select file
   await page.locator('#file-upload').click();
