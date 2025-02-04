@@ -8,7 +8,7 @@ GETTING STARTED
 
 Prerequisites
 
-* Before setting up the project, ensure you have the following installed:
+Before setting up the project, ensure you have the following installed:
  • Node.js (LTS) (https://nodejs.org/)
  • Git (https://git-scm.com/)
  • A package manager: npm
@@ -46,5 +46,9 @@ npx playwright test tests/example.spec.ts
 Run tests with UI mode for web tests (interactive)
 
 npx playwright test --ui
+
+To view detailed test reports:
+
+npx playwright show-report
 
 IMPORTANT! Some tests (f.e. api test for deleting post and validating that it's not available anymore) can fail as resources will not be really updated on the server but it will be faked as if.
