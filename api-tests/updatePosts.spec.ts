@@ -45,7 +45,7 @@ test('update post with PATCH and validate changes', async ({ request }) => {
     };
 
     // Send a PUT request to update a post
-    const response = await request.put(`${baseUrl}/posts/${postId}`, {
+    const response = await request.patch(`${baseUrl}/posts/${postId}`, {
         data: patchData,
     });
 
