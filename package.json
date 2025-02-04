@@ -1,0 +1,25 @@
+{
+  "name": "the_internet",
+  "version": "1.0.0",
+  "description": "This repository is created for WEB UI autotests for the-internet project (a publicly available website that offers various testing scenarios) and API tests for jsonplaceholder (a public API for testing and prototyping)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasTsar/the-internet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasTsar/the-internet/issues"
+  },
+  "homepage": "https://github.com/LucasTsar/the-internet#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
